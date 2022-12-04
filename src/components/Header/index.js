@@ -2,7 +2,12 @@ import "./style.css"
 
 const Header = () => {
     return (
-        <div className="teste">Teste</div>
+        <div>
+        <div className="header">
+            <span className="text-header">Valorant Comps</span>
+        </div>
+        <div className="line"></div>
+        </div>
     );
 }
 
