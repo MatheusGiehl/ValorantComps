@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    background-color: #2E303D;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 180px;
+    margin-left: 50%;
+    transform: translate(-50%); 
+    width: 1000px;
+}
+
+.maps {
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.agents {
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+    color: #ECECEC;
+    font-family: 'Zen Dots', cursive;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
