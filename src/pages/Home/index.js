@@ -11,7 +11,7 @@ function Home () {
                 <div className="maps">
                     <Link to='/mapas'>
                 <img
-                 src="https://cdn-wp.thesportsrush.com/2022/02/1ea1c024-valorant-maps.jpg"
+                 src="https://whatifgaming.com/wp-content/uploads/2021/05/Valorant-Map-Queue.png"
                  alt="Mapas"
                  />
                  </Link>
