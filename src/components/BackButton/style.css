@@ -1,0 +1,19 @@
+button {
+    color: #FFF;
+    border: none;
+    margin-left: 60px;
+    background-color: #44374F;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    width: 50px;
+    height: 35px;
+    justify-content: center;
+    transform: scale(.95);
+}
+
+button:hover {
+    transform: scale(1);
+    transition: all ease .3s;
+    border: 1px solid #FFF;
+}
