@@ -1,0 +1,29 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container--maps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+}
+
+.map--area {
+  width: 400px;
+  position: relative;
+  
+}
+
+.mapImg {
+  width: inherit; 
+  border: none;
+  border-radius: 15px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
