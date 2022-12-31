@@ -1,7 +1,7 @@
 button {
     color: #FFF;
     border: none;
-    margin-left: 60px;
+    margin-left: 45px;
     background-color: #44374F;
     align-items: center;
     display: flex;
@@ -16,4 +16,5 @@ button:hover {
     transform: scale(1);
     transition: all ease .3s;
     border: 1px solid #FFF;
+    cursor: pointer;
 }
