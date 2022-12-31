@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../../components/Header';
 import { Link } from "react-router-dom";
 import "./styles.css";
+import "./scroll.css";
 
 function Home () {
     return (
@@ -18,7 +19,9 @@ function Home () {
                 <p>Mapas</p>
                 </div>
                 <div className="agents">
+                    <Link to='/agentes'>
                     <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2020/07/valorant-tier-list-best-agents.jpg"/>
+                    </Link>
                     <p>Agentes</p>
                 </div>
             </div>
